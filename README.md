@@ -18,3 +18,4 @@ You can add actions editing the file `action.js` with this syntax:
   }
 }
 ```
+You can change the app port in the `index.js` editing the const `app`
