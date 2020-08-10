@@ -1,30 +1,30 @@
 module.exports = [
-    {
-        id: 'usuario',
-        type: 'get',
-        callback: (req, res) => {
+  {
+    id: 'user',
+    type: 'get',
+    callback: (req, res) => {
 
-        }
-    },
-    {
-        id: 'usuario',
-        type: 'post',
-        callback: (req, res) => {
-
-        }
-    },
-    {
-        id: 'usuario',
-        type: 'put',
-        callback: (req, res) => {
-
-        }
-    },
-    {
-        id: 'usuario',
-        type: 'delete',
-        callback: (req, res) => {
-
-        }
     }
+  },
+  {
+    id: 'user',
+    type: 'post',
+    callback: (req, res) => {
+
+    }
+  },
+  {
+    id: 'user',
+    type: 'put',
+    callback: (req, res) => {
+
+    }
+  },
+  {
+    id: 'user',
+    type: 'delete',
+    callback: (req, res) => {
+
+    }
+  }
 ]
